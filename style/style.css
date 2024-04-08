@@ -1,0 +1,111 @@
+/* Padding blanc */
+.white-padding {
+    padding: 20px; /* ou la valeur que vous souhaitez */
+    background-color: white ;
+}
+
+/* Padding gris */
+.gray-padding {
+    padding: 30px 100px; /* ou la valeur que vous souhaitez */
+    background-color: rgb(209, 209, 209); /* ou la couleur grise de votre choix */
+}
+
+/* Padding gris */
+.yellow-padding {
+    padding: 0 ; /* ou la valeur que vous souhaitez */
+    background-color: rgb(255, 255, 210);  /* ou la couleur grise de votre choix */
+}
+
+body {
+    font-family: serif;
+    margin: 0;
+    padding: 40px 80px;
+    border: 5px solid red;
+    background-color: white; /* Couleur de fond du texte */
+}
+
+header {
+    padding: 20px ;
+    text-align: center;
+    background-color: brown;
+    text-transform: capitalize;
+    font-family: serif;
+    color: white;
+}
+
+main {
+    padding: 30px 40px ;
+    font-family: arial;
+    font-weight: normal;
+    font-size: 18px;
+
+}
+
+.separator {
+    border: 2px solid rgb(168, 0, 0); /* Ligne rouge en gras */
+    width: 100%;
+    margin: 40px 0 ; /* Espacement autour de la ligne */
+}
+
+.section {
+    padding: 20px;  /* Ajoutez d'autres styles au besoin */
+}
+
+footer {
+    background-color: white;
+    border-top: 5px solid #ddd ; /* Bordures du pied de page */
+    color: #222;
+    text-align: end ;
+    padding: 10px;
+    bottom: 0;
+    width: auto;
+    border-left: 50px solid #ddd ;
+    border-right: 50px solid #ddd ;
+}
+
+.footer-content {
+    max-width: inherit ; /* Ajustez la largeur selon vos besoins */
+    margin: auto;
+    color: inherit;
+    background-color: inherit;
+}
+
+footer a {
+    text-decoration: ; /* Soulignez le lien */
+    color: inherit ; /* Couleur du texte du lien */
+}
+
+.centered-image {
+    
+    max-width: 350px ; /* Pour que l'image ne dépasse pas la largeur du cadre */
+    
+}
+
+.centered-square {
+    text-align: center;
+
+    padding: 20px 10px 10px;
+    background-color: white; /* Couleur de fond blanche */
+    border: 1px solid black; /* Bordure solide noire */
+    margin: 40px auto;
+    width: fit-content; /* Largeur  */
+    
+}
+
+.gray-underline {
+    color: grey; /* Couleur grise */
+    text-decoration: ; /* Soulignez le lien */
+}
+
+.literature-poem {
+    margin: ;
+    padding: ; /* Ajout d'une marge interne de 10px pour plus d'espace à l'intérieur du div */
+    width: ;
+    box-sizing: ; /* Inclure la marge et le rembourrage dans la largeur du div */
+}
+
+.literature-poem p{
+    margin: 0 40px;
+    line-height: 1.6;
+}
+
